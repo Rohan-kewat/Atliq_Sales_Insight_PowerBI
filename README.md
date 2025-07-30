@@ -38,6 +38,11 @@ You are a data analyst who has been provided with sample data and a mock-up dash
     <img src='https://github.com/Rohan-kewat/Atliq_Sales_Insight_PowerBI/blob/main/Executive%20%26%20Finance%20View.png' width="600">
 </p>
 
+## Executive and Finance Overall Analysis
+<p align="center">
+    <img src='https://github.com/Rohan-kewat/Atliq_Sales_Insight_PowerBI/blob/main/Interactive%20Dashboard.gif' width="600">
+</p>
+
 
 ## Learnt things from this Project 
 - Learnt to build a new visual (Calendar visual) using matrix table, which can be utilized for different purpose of analyze. ([Article referred](https://www.linkedin.com/pulse/calendar-matrix-syed-ahmed-ali/?trackingId=VgyLpo%2BYxVRs8tD03PXcPQ%3D%3D))
