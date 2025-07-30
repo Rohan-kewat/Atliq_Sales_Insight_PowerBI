@@ -1,55 +1,55 @@
 # AtliQ Hospitality Analysis - PowerBI
-Performed a High level analysis of data in SQL to get better understanding over the data.  Connected the SQL data set to PowerBI. Performed ETL and data cleaning on the imported data. In the currency there were two types of currencies in transactions, performed currency conversion to make all the currency type same. 
 
-# AtliQ Hospitality Analysis - PowerBI
+As part of the codebasics september month resume challenge, I have worked on this analysis project.
 
-This is a project I replicated from Codebasics PowerBi Youtube playlist. You can find the link of the playlist below.
+Link to [Interactive Dashboard](https://app.powerbi.com/groups/64ae3243-dc2d-49d7-8011-70a877e1d53a/reports/abb9e892-5b51-4612-b1dc-9445e22b4756/ReportSectionce2063a216d8e001051e?experience=power-bi)
 
-[Codebasics Youtube Playlist](https://youtube.com/playlist?list=PLeo1K3hjS3uva8pk1FI3iK9kCOKQdz1I9)
-
-[Live Report Link](https://app.powerbi.com/groups/64ae3243-dc2d-49d7-8011-70a877e1d53a/reports/abb9e892-5b51-4612-b1dc-9445e22b4756/ReportSectionce2063a216d8e001051e?experience=power-bi)
 
 ## Problem statement
 
-AtliQ hardware is a company which delivers computer hardware & peripheral 
-Manufacturers to his clients, which has several branches throughout India. The sales director of the company is facing a lot of
-issues in terms of understanding how the business is performing and what are all the problem company is
-facing currently as the sales are not as expected and declining gradually. And whenever he calls the regional managers
-to get the current status of the sales and market, as a human behaviour, these people 
-sugar cote the truth and send tons of Excel files instead of disclosing the truth, which made the sales director more frustrated.
-Humans are not comfortable in consuming numbers from excel files, which is obvious reason for the frustration.
+Atliq Grands owns multiple five-star hotels across India. They have been in the hospitality industry for the past 20 years. Due to strategic moves from other competitors and ineffective decision-making in management, Atliq Grands are losing its market share and revenue in the luxury/business hotels category. As a strategic move, the managing director of Atliq Grands wanted to incorporate “Business and Data Intelligence” in order to regain their market share and revenue. However, they do not have an in-house data analytics team to provide them with these insights.
 
-## Solution 
+Their revenue management team had decided to hire a 3rd party service provider to provide them insights from their historical data.
 
-Sales director of the AltiQ hardware, decided to build a PowerBI Dashboard for converting the data into 
-visual representation to make data driven decisions. So, he hired a team of data people to complete this task.
+### Task List
+
+You are a data analyst who has been provided with sample data and a mock-up dashboard to work on the following task. You can download all relevant documents from the download section.
+
+- Create the metrics according to the metric list. 
+- Create a dashboard according to the mock-up provided by stakeholders. 
+- Create relevant insights that are not provided in the metric list/mock-up dashboard.
+
+## Provided Mock-up Dashboard
+<p align="center">
+    <img src="https://github.com/Rohan-kewat/Atliq_Sales_Insight_PowerBI/blob/main/Mock%20up%20dashboard.png" width="600">
+</p>
 
 
-### AIMS Grid
+## Data Model
 
----
-By using the AIMS grid project management tool, we made sure what are the purpose, stakeholder, end result 
-and success criteria  of our project.
+<p align="center">
+    <img src='https://github.com/Rohan-kewat/Atliq_Sales_Insight_PowerBI/blob/main/Data%20Model.png' height="400">
+</p>
 
-<img src="https://github.com/Naveen-S6/AtliQ_Sales_Insigths_PowerBi/blob/main/DATASET/AIMS.jpg" width="550" class="center">
 
-## Steps Followed in this project
+## Overall Analysis View
 
-1. Performed a High level analysis of data in SQL to get better understanding over the data.
-2. Connected the SQL data set to PowerBI.
-3. Performed ETL and data cleaning on the imported data.
-4. In the currency there were two types of currencies in transactions, performed currency conversion to make all the currency type same
-5. Created measure for needs and used them for creating visuals in PowerBi.
-6. After the initial report reviewed by the stakeholders, made changes to the report based on the review commends.
+<p align="center">
+    <img src='https://github.com/Rohan-kewat/Atliq_Sales_Insight_PowerBI/blob/main/Executive%20%26%20Finance%20View.png' width="600">
+</p>
 
-## Final result 
 
-#### Updated Dashboard
+## Learnt things from this Project 
+- Learnt to build a new visual (Calendar visual) using matrix table, which can be utilized for different purpose of analyze. ([Article referred](https://www.linkedin.com/pulse/calendar-matrix-syed-ahmed-ali/?trackingId=VgyLpo%2BYxVRs8tD03PXcPQ%3D%3D))
+- By referring different cancellation polices followed by different hotels, understood that most of the hotels charge zero fee, only if the booking is cancelled before three months of booking date. If the booking is cancelled after that, the charge range from 60 to 90% of the booking cost.
+- Learnt, how to use bookmarks and selection for different purposes. (Page navigation and clear filter button in the dashboard was achieved using bookmarks and selection. website like page navigation [YouTube tutorial](https://www.youtube.com/watch?v=xCSYLrcLW00)   )
 
----
-<img src="https://github.com/Rohan-kewat/Atliq_Sales_Insight_PowerBI/blob/main/Executive%20%26%20Finance%20View.png">
+## Some Important insights from the Dashboard
 
-#### Interactive dashboard
-
----
-<img src="https://github.com/Rohan-kewat/Atliq_Sales_Insight_PowerBI/blob/main/Interactive%20Dashboard.gif">
+- Mumbai generates the highest revenue (669 M) followed by Bangalore, Hyderabad and Delhi
+- AtliQ Exotica performs better compared to all 7 type of properties with 320 Million revenue, rating 3.62, occupancy percentage 57 and cancellation rate as 24.4%.
+- AtliQ Bay has the highest occupancy of 66%
+- Week 24 recorded the highest revenue among all, which is 139.6 Million
+- Delhi tops both in occupancy and rating followed by Hyderabad, Mumbai, Bangalore
+- AtliQ lost around 298 Million in cancellation 
+- Elite type rooms has the most booking and as well higher cancellation rate
